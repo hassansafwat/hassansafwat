@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/Text_view1"
+        android:layout_margin="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"/>
+    <TextView
+        android:id="@+id/Text_view2"
+        android:layout_margin="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong Answer"/>
+
+    <TextView
+        android:id="@+id/Text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="150dp"
+        android:text="Correct Answer" />
+
+    <TextView
+        android:id="@+id/Text_view4"
+        android:layout_marginTop="200sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text view"/>
+    <TextView
+        android:id="@+id/Text_view5"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account  Register"/>
+
+    <TextView
+        android:id="@+id/Text_view6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:text="Don't have an account  Register" />
+
+
+</RelativeLayout>
